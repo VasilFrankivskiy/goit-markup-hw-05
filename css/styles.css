@@ -303,10 +303,10 @@ a {
   letter-spacing: 0.03em;
   line-height: 1.16;
 }
-/* .img-container {
+.img-container {
   justify-content: space-between;
   display: flex;
-} */
+}
 
 /* ---Наша команда--- */
 
@@ -601,7 +601,6 @@ a {
 
 /* CARD */
 /* .card {
-  border-radius: 4px;
 } */
 
 .link-card {
@@ -646,10 +645,6 @@ a {
   transition: transform 250ms var(--cubic);
 }
 
-/* .product-thumb {
-  overflow: hidden;
-} */
-
 .link-card:hover .overlay,
 .link-card:focus .overlay {
   transform: translateY(0);
@@ -660,8 +655,11 @@ a {
   line-height: 1, 5;
   color: var(--white-text);
 }
-
-.card-thumb > .label {
+.product-service {
+  overflow: hidden;
+  position: relative;
+}
+.product-service > .prefix {
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -677,8 +675,12 @@ a {
   color: var(--white-text);
 }
 
-.label {
+.prefix {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.ul-what-we-do {
+  display: flex;
+  justify-content: space-between;
 }
