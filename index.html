@@ -66,7 +66,20 @@
 
             <div class="container-hero">
                 <h1><span class="hero-text">Эффективные решения <br> для вашего бизнеса</span></h1>
-                <button class="button-zakaz" >Заказать услугу</button>
+                <button data-modal-open class="button-zakaz" >Заказать услугу</button>
+            </div>
+            
+            <div class="backdrop is-hidden" data-modal="">
+                <div class="modal">
+                    <button data-modal-close="" class="closed">
+                        <svg class="" width="11" height="11">
+                            <use href="./images/icons.svg#hrestik">
+            
+                            </use>
+                        </svg>
+                    </button>
+            
+                </div>
             </div>
             
         </section>
@@ -141,18 +154,43 @@
 
                 <h2 class="what-we-do">Чем ми занимаемся</h2>
                 
-                <div class="img-container">
+                    <ul>
+                        <li>
+                            <div class="product-thumb">
+                                <img src="./images/what_we_do/img1.jpg" alt="Фото чоловіка що сидить за компютером і клавіатурою" width="370">                                
+                                <p class="label">
+                                    Десктопные приложения
+                                </p>
+                            </div>
 
-                    <img src="./images/what_we_do/img1.jpg"
-                     alt="Фото чоловіка що сидить за компютером і клавіатурою" width="370">
+                        </li>
+                            
+                        <li>
+                            <div class="product-thumb">
+                                <img src="./images/what_we_do/img.jpg" alt="Фото з ноутбуком на столі і смартфоном в руках" width="370">
+                                <p class="label">
+                                    Мобильные приложения
+                                </p>
+                            </div>
+                        </li>
 
-                    <img src="./images/what_we_do/img.jpg"
-                     alt="Фото з ноутбуком на столі і смартфоном в руках" width="370">
+                        <li>
+                            <div class="product-thumb">
+                                <img src="./images/what_we_do/img2.jpg" alt="Фото планшета з кольоровою палітрою" width="370">
+                                <p class="label">
+                                    Дизайнерские решения
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
 
-                    <img src="./images/what_we_do/img2.jpg"
-                     alt="Фото планшета з кольоровою палітрою" width="370">
+                    
+                    
+
+                   
+
+                   
                 
-                </div>
                 
             </div>
             
@@ -502,6 +540,10 @@
        
     </footer>
     <!------------------------Кінець Підвал з посиланями і адресами ------------------------->
+
+
+        <script src="./js/modal.js"></script>
+
 </body>
 
 </html>
