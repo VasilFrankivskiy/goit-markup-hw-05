@@ -600,8 +600,8 @@ a {
 }
 
 /* CARD */
-/* .card {
-} */
+.card {
+}
 
 .link-card {
   background: var(--white-text);
@@ -653,7 +653,7 @@ a {
   font-weight: 400;
   font-family: "roboto";
   font-size: 18px;
-  line-height: 1.55;
+  line-height: 1.5;
   color: var(--white-text);
 }
 /* -----Чим займаємся підписи тексту----- */
